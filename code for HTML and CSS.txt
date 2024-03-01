@@ -1,0 +1,179 @@
+
+   HTML CODE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpilo Technologies IT HUB</title>
+
+   <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+ <header>
+  <img src="images/download (1).png" alt="mpilo logo">
+  
+ </header>
+
+ <nav>
+<a href="https://mpilotech.co.za/">Home</a>
+<a href="https://www.instagram.com/reel/CvogkbwNtQY/?igshid=NzZhOTFlYzFmZQ==">Events</a>
+<a href="https://mpilotech.co.za/contact-us/">contact</a>
+<a href="https://youtu.be/1sIXDYxpAns">Graduate 
+programme</a>
+<a href="mailto:eugene.vos@mpilo.africa" target="_blank">Talent Acquisition</a>
+
+
+ </nav>
+
+
+ <main>
+ 
+  <h1>Mpilo Technologies IT HUB</h1>
+  <P>Mpilo Technologies IT HUB is a second division of the comapny meant for developing and enhancing our software developers and engineers skills both experienced and none experienced developers and engineers.</P>
+  <a href="https://mpilotech.co.za/about-us/">More Information About US </a>
+ </main>
+
+ <section class="maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1790.789877950573!2d28.041503785186805!3d-26.145241863688923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d908680c3f5%3A0x980e55ea6308658!2sWorkshop17%20The%20Bank!5e0!3m2!1sen!2sza!4v1695299027298!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <iframe width="460" height="215" src="https://www.youtube.com/embed/o9jPpIt1nR4?si=oMnf5WKACmSW5fOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+ </section>
+
+ <footer>
+<p>Workshop 17 The Bank
+  Corner Tyrwhitt and
+  24 Cradock Ave
+  Rosebank
+  Johannesburg
+  2196 </p>
+
+ </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+CSS CODE 
+
+
+
+html
+{
+height: 100;
+
+}
+
+
+body{
+
+background-color: #2F3035;
+
+background-image: url(images/272296100_2583810488430471_2100461273213185755_n.jpg);
+background-size:cover;
+}
+
+
+.container
+{
+    
+    margin-left: auto;
+    width: 1035px;
+}
+
+
+header{
+
+    
+    height: 147px;
+    text-align: center;
+    
+    
+}
+nav{
+  
+    background:rgba(0, 0, 0, 0.603);
+    height: 40px;
+     text-align: center;
+    
+}
+
+main{
+
+  
+    height: 400px;
+    text-align: center; 
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+
+footer{
+
+    background:rgba(0, 0, 0, 0.555);
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+ 
+}
+
+h1{
+
+font-size: 40px;
+color: orangered;
+font-family:Arial, Helvetica, sans-serif
+
+}
+
+p{
+    
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.507);
+}
+
+ a{
+
+    font-size:x-large;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.507);
+ }
+
+ nav a{
+
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right:20px ;
+    background-color: rgba(0, 0, 0, 0);
+        
+ }
+footer p{
+
+    font-size: 15px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0) ;
+}
+
+.maps{
+
+padding-bottom:60px ;
+text-align: center;
+
+}
+
